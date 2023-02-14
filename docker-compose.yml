@@ -15,5 +15,4 @@ services:
       - default
 
   networks:
-   - nginx_proxy:
-      name: default
+    - default
