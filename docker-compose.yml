@@ -13,3 +13,7 @@ services:
       - ./letsencrypt:/etc/letsencrypt
     networks:
       - default
+
+  networks:
+   - nginx_proxy:
+      name: default
